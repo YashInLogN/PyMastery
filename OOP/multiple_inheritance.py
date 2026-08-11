@@ -1,6 +1,6 @@
 class Prey:
 
-    def prey(self):
+    def flee(self):
         print(f'This animal flees.')
 
 class Predator:
@@ -22,5 +22,6 @@ rabbit = Rabbit()
 hawk = Hawk()
 fish = Fish()
 
-rabbit.prey()
+rabbit.flee()
 hawk.hunt()
+# fish.hunt()
