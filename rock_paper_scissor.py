@@ -16,7 +16,8 @@ for i in range(n):
     while player_choice not in choices:
         player_choice = input(f'Enter ur choice {choices}: ').lower()
 
-    # if computer_choice == player_choice:
+    if computer_choice == player_choice:
+        continue
     if computer_choice == 'rock':
         count_computer += 1
     elif computer_choice == 'paper':
