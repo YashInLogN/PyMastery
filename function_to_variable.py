@@ -1,3 +1,3 @@
-hello = print
+display = print
 
-hello("Yash")
+display("Hello ", name := input("Enter your name: "))
