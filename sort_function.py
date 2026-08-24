@@ -2,3 +2,8 @@
 # It can also sort elements in descending order using the reverse=True argument.
 # sort() changes the original list directly.
 
+students = ["Squidward", "Sandy", "Patrick", "Spongebob", "Mr .Krabs"]
+
+students.sort(reverse=True)
+
+print(students)
