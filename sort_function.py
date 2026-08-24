@@ -6,4 +6,5 @@ students = ["Squidward", "Sandy", "Patrick", "Spongebob", "Mr .Krabs"]
 
 students.sort(reverse=True)
 
-print(students)
+for i in students:
+    print(i)
