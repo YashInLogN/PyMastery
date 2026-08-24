@@ -13,8 +13,11 @@ for i in sorted_students:
 
 students_data = [("Henry", "F", 100), ("Clark", "C", 72), ("Hamilton", "A", 43)]
 
-grade = lambda grade: grade[1]
-sorted_data = sorted(students_data, key=grade)
+# grade = lambda grade: grade[1]
+# sorted_data = sorted(students_data, key=grade)
+age = lambda age: age[2]
+sorted_data = sorted(students_data, key=age)
+
 
 for i in sorted_data:
     print(i)
