@@ -15,8 +15,8 @@ students_data = [("Henry", "F", 100), ("Clark", "C", 72), ("Hamilton", "A", 43)]
 
 # grade = lambda grade: grade[1]
 # sorted_data = sorted(students_data, key=grade)
-marks = lambda num: num[2]
-sorted_data = sorted(students_data, key=marks)
+# marks = lambda num: num[2]
+sorted_data = sorted(students_data, key= lambda num: num[2])
 
 
 for i in sorted_data:
