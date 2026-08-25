@@ -1,8 +1,8 @@
 # modules = a file containing python code. May contain function, classes, etc.
-import modules_file as mf
+import modules_file as ml
 
-mf.greeting()
+ml.greeting()
 
-mf.info('Clark', 19, 'First')
+ml.info('Clark', 19, 'First')
 
-help("modules")
+# help("modules")
