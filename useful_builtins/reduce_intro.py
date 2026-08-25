@@ -3,3 +3,22 @@
 # Parameters required: reduce(function, iterable)
 # It is available in Python through the functools module.
 
+import functools
+
+# def add(x, y):
+#     return x+y
+
+cumulatively = functools.reduce
+
+letters = ["H", "E", "L", "L", "O"]
+
+word = cumulatively(lambda x, y :x+y, letters)
+
+print(word)
+
+factorial = list(range(1, 6))
+
+factorial_ = cumulatively(lambda x, y: x*y, factorial)
+
+print(factorial_)
+
