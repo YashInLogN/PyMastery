@@ -7,5 +7,5 @@ Origin = ["Argentina", "Turkey", "France"]
 
 data = dict(zip(names, Origin))
 
-for i in data.items():
-    print(i)
+for key, val in data.items():
+    print(f"{key} is from {val}")
